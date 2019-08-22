@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'geomanistbold';
+  src: url('../fonts/geomanist/geomanist_bold-webfont.woff2') format('woff2'), url('../fonts/geomanist/geomanist_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geomanist_regularregular';
+  src: url('../fonts/geomanist/geomanist_regular-webfont.woff2') format('woff2'), url('../fonts/geomanist/geomanist_regular-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'geomanist_regularregular', 'Open Sans', sans-serif;
+}
+.icono {
+  width: 120px;
+  height: auto;
+  margin-left: 60px;
+  display: block;
+}
+
+.logo-cla {
+  width: 228px;
+  height: auto;
+  display: block;
+  margin: 20px; 
+}
+
+.banner {
+  
+    max-width: 100%; 
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.footer {
+  max-width: 100%; 
+  width: 100%;
+  height: auto;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h3 {
+  color: #1896d3;
+  font-weight: 700;
+}
+p {
+  color: #4f5858;
+  font-size: 15px;
+  font-weight: 300;
+}
+.text-md-right {
+  text-align:right!important 
+}
+.col-form-label{
+  padding-top:calc(.375rem + 1px);
+  padding-bottom:calc(.375rem + 1px);
+  margin-bottom:0;
+ font-size:inherit;
+  line-height:1.5 
+}
+.header {
+  padding: 20px 0 30px 0;
+}
+.btn-default {
+  color: #fff;
+  background-color: #1896d3;
+  border-color: #178bc5;
+  margin: 1em 15em;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #1896d3;
+  border-color: #178bc5;
+}
+.btn-default:active {
+  color: #fff;
+  background-color: #1896d3;
+  border-color: #178bc5;
+}
+.btn-default:focus {
+  color: #fff;
+  background-color: #1896d3;
+  border-color: #178bc5;
+}
+
+.texto {
+  position: absolute;
+  top: 4em;
+  left: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  .btn-default {
+      margin: 10px 0;
+ }
+
+ img {
+  max-width: 100%;
+ }
+
+.texto {
+  position: absolute;
+  top: 109px;
+  left: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+ 
+}
